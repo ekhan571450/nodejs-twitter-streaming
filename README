@@ -1,0 +1,12 @@
+To set up environment, use the following (with streaming.js in the same dir):
+
+$ sh configure
+
+The CouchDB IP address and Twitter OAuth info are currently hardcoded in the streaming.js file. Just pop those details into the empty strings.
+To run the program:
+
+$ node streaming.js
+
+Or to run as a background process:
+
+$ pm2 start streaming.js
